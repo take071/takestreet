@@ -62,7 +62,7 @@ git clone https://github.com/take071
 
 Abra o arquivo:
 
-index.html
+takestreet_v8.html
 
 Ou utilize uma extensão como Live Server para melhor experiência.
 
