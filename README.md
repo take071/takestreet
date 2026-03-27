@@ -1,6 +1,6 @@
 # TAKESTREET
 
-Plataforma digital inspirada na cultura urbana brasileira, conectando streetwear, identidade cultural e experiência moderna de navegação.
+Plataforma digital inspirada na cultura urbana brasileira, conectando streetwear, identidade cultural e experiência moderna de navegação (não está completo por pequenos detalhes).
 
 ---
 
