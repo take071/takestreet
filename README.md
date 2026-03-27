@@ -58,7 +58,7 @@ Sistema dinâmico: em implementação futura
 
 Clone o repositório:
 
-git clone https://github.com/seu-usuario/takestreet.git
+git clone https://github.com/take071
 
 Abra o arquivo:
 
