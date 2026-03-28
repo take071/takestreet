@@ -1,136 +1,196 @@
-# TAKESTREET
+# 🟡 TAKESTREET
 
-Plataforma digital inspirada na cultura urbana brasileira, conectando streetwear, identidade cultural e experiência moderna de navegação (não está completo por causa de alguns pequenos detalhes).
+<p align="center">
+  Plataforma de curadoria streetwear inspirada na cultura trap, hip-hop e boombap brasileiro.
+</p>
 
----
-
-## Visão
-
-TAKESTREET não é apenas um site de roupas.
-É um projeto construído com base em:
-
-* Cultura de rua
-* Expressão individual
-* Estética urbana
-* Mentalidade de evolução
-
-O objetivo é criar uma presença digital forte, com identidade clara e posicionamento real dentro do cenário streetwear.
+<p align="center">
+  <b>Sem filtro. Sem estilo fake.</b>
+</p>
 
 ---
 
-## Produto
+## 🚀 Status do Projeto
 
-Atualmente, o projeto consiste em um front-end funcional com:
-
-* Interface moderna e responsiva
-* Navegação entre seções (Home, Sobre, Identidade Cultural, Produtos)
-* Estrutura visual alinhada com estética streetwear premium
-* Conteúdo autoral voltado à cultura hip hop, trap e boom bap
-
----
-
-## Status
-
-Frontend: concluído (em constante refinamento)
-Backend: em desenvolvimento
-Banco de dados: em planejamento
-Sistema dinâmico: em implementação futura
+<p align="center">
+  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow" />
+  <img src="https://img.shields.io/badge/frontend-concluído-brightgreen" />
+  <img src="https://img.shields.io/badge/backend-em%20planejamento-blue" />
+</p>
 
 ---
 
-## Estrutura
+## 📌 Sobre o projeto
 
-/project
-│
-├── index.html
-├── css/
-│   └── styles.css
-├── js/
-│   └── script.js
-├── assets/
-│   ├── images/
-│   └── fonts/
-└── README.md
+O **TAKESTREET** é uma plataforma web que traz uma experiência visual moderna e autêntica para descoberta de produtos streetwear.
+
+O projeto combina:
+
+* identidade urbana brasileira
+* design moderno
+* estrutura preparada para backend
 
 ---
 
-## Execução local
+## 🎯 Objetivo
 
-Clone o repositório:
-
-git clone https://github.com/take071
-
-Abra o arquivo:
-
-takestreet_v8.html
-
-Ou utilize uma extensão como Live Server para melhor experiência.
+* Criar um e-commerce de streetwear
+* Oferecer uma experiência visual forte
+* Preparar o sistema para backend escalável
+* Conectar cultura urbana com tecnologia
 
 ---
 
-## Deploy
+## 🧱 Estrutura do Projeto
 
-O projeto pode ser publicado rapidamente em:
-
-Netlify
-GitHub Pages
-
-Processo simples:
-
-* Upload dos arquivos
-* Deploy automático
-* Site online em poucos minutos
-
----
-
-## Diferencial
-
-O principal diferencial do TAKESTREET não está apenas no visual, mas na construção de identidade.
-
-O projeto integra:
-
-* Cultura musical (rap, trap, boom bap)
-* Estética streetwear
-* Narrativa autoral
-* Posicionamento de marca
+```bash
+/takestreet
+ ├── app.py
+ ├── requirements.txt
+ │
+ ├── /templates
+ │    └── index.html
+ │
+ ├── /static
+ │    ├── /css
+ │    │    └── style.css
+ │    └── /js
+ │         └── app.js
+```
 
 ---
 
-## Roadmap
+## 🖥️ Tecnologias
 
-Próximas evoluções planejadas:
+### Frontend
 
-* Integração com backend (Node.js + Express)
-* Banco de dados (PostgreSQL)
-* Sistema dinâmico de produtos
-* Painel administrativo
-* Sistema de afiliados estruturado
-* Otimização de performance e SEO
+* HTML5
+* CSS3
+* JavaScript
 
----
+### Backend (base inicial)
 
-## Objetivo
-
-Evoluir o projeto para:
-
-* Plataforma funcional de streetwear
-* Produto digital escalável
-* Projeto de portfólio profissional
-* Possível operação comercial
+* Python
+* Flask
 
 ---
 
-## Autor
+## 🎨 Identidade Visual
 
-Desenvolvido por Arthur Felipe
-
----
-
-## Nota
-
-Projeto em desenvolvimento contínuo.
-Atualizações e melhorias serão aplicadas progressivamente.
+* Tema escuro com destaque em amarelo
+* Tipografia forte e urbana
+* Layout minimalista e moderno
+* Influência da cultura trap brasileira
 
 ---
 
-"Não é só estética. É construção."
+## 📄 Funcionalidades
+
+### 🏠 Home
+
+* Hero com branding TAKESTREET
+* Frases de impacto
+* Call-to-actions
+
+### 🛍️ Shop
+
+* Grid de produtos
+* Estrutura para dados dinâmicos
+
+### ❤️ Wishlist
+
+* Interface de favoritos (UI pronta)
+
+### 🔍 Busca
+
+* Campo de pesquisa
+* Estrutura para integração
+
+### 🔐 Autenticação
+
+* Interface de login/cadastro
+* Pronta para backend
+
+---
+
+## ⚙️ Backend atual
+
+O projeto utiliza **Flask** para servir o frontend:
+
+* Renderização de `index.html`
+* Estrutura básica de servidor
+
+> ⚠️ Ainda não possui:
+>
+> * Banco de dados
+> * API REST
+> * Autenticação real
+
+---
+
+## 🚀 Como rodar
+
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+Acesse:
+
+```bash
+http://localhost:5000
+```
+
+---
+
+## 🔌 Próximos passos
+
+* API de produtos
+* Integração com PostgreSQL
+* Sistema de login com JWT
+* Wishlist persistente
+* Deploy (Netlify + Render)
+
+---
+
+## 🧠 Conceito
+
+TAKESTREET não é apenas um site.
+
+É uma representação digital da cultura urbana brasileira:
+
+* estilo
+* atitude
+* identidade
+
+---
+
+## 👨‍💻 Autor
+
+**Arthur Felipe**
+
+---
+
+## 🤖 IAs utilizadas
+
+* ChatGPT (OpenAI)
+* Claude (Anthropic)
+
+Utilizadas para:
+
+* Estruturação do projeto
+* Correção de bugs
+* Planejamento técnico
+* Documentação
+
+---
+
+## ⭐ Contribuição
+
+Sinta-se livre para contribuir com melhorias, ideias ou sugestões.
+
+---
+
+## 📌 Licença
+
+Este projeto está em desenvolvimento e ainda não possui licença definida.
