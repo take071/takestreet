@@ -1,0 +1,79 @@
+// prisma/schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int       @id @default(autoincrement())
+  username  String    @unique @db.VarChar(30)
+  email     String?   @unique @db.VarChar(100)
+  password  String    // bcrypt hash
+  role      Role      @default(USER)
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  wishlist  Wishlist[]
+
+  @@map("users")
+}
+
+model Product {
+  id        Int       @id @default(autoincrement())
+  name      String    @db.VarChar(100)
+  brand     String    @db.VarChar(60)
+  price     Decimal   @db.Decimal(10, 2)
+  oldPrice  Decimal?  @db.Decimal(10, 2)
+  gender    Gender
+  category  Category
+  platform  String    @db.VarChar(40)
+  badge     String?   @db.VarChar(30)
+  icon      String    @default("default") @db.VarChar(30)
+  tags      String[]
+  desc      String?   @db.VarChar(500)
+  link      String?   @db.VarChar(500)
+  img       String?   @db.VarChar(500)
+  active    Boolean   @default(true)
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  wishlist  Wishlist[]
+
+  @@map("products")
+}
+
+model Wishlist {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  productId Int
+  createdAt DateTime @default(now())
+
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, productId])
+  @@map("wishlist")
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum Gender {
+  masculino
+  feminino
+  unissex
+}
+
+enum Category {
+  camisetas
+  moletons
+  calcas
+  jaquetas
+  tenis
+  acessorios
+}
