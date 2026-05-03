@@ -65,12 +65,12 @@ O projeto atua como um experimento em **desenvolvimento orientado por Inteligên
 
 ## 🚀 Roadmap de Evolução
 
-| Status | Feature | Descrição |
-|---|---|---|
-| ⬜ | **Data Persistence** | Implementação e integração com base de dados PostgreSQL |
-| ⬜ | **Security Layer** | Sistema de autenticação robusto utilizando JWT (JSON Web Tokens) |
-| ⬜ | **API Economy** | Transição para uma API REST totalmente desacoplada |
-| ⬜ | **DevOps** | Configuração de pipeline CI/CD e automação de deploy |
+| Feature | Descrição |
+|---|---|
+| **Data Persistence** | Implementação e integração com base de dados PostgreSQL |
+| **Security Layer** | Sistema de autenticação robusto utilizando JWT (JSON Web Tokens) |
+| **API Economy** | Transição para uma API REST totalmente desacoplada |
+| **DevOps** | Configuração de pipeline CI/CD e automação de deploy |
 
 ---
 
