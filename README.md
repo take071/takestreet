@@ -1,196 +1,100 @@
 # 🟡 TAKESTREET
 
 <p align="center">
-  Plataforma de curadoria streetwear inspirada na cultura trap, hip-hop e boombap brasileiro.
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Culture-Streetwear%20%7C%20Trap%20%7C%20Hip--Hop-black?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Stack-Flask%20%7C%20Python%20%7C%20JS-blue?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <b>Sem filtro. Sem estilo fake.</b>
+  <b>Plataforma de curadoria streetwear inspirada na cultura urbana brasileira. Sem filtro. Sem estilo fake.</b>
 </p>
 
 ---
 
-## 🚀 Status do Projeto
+## ⚡ Visão Geral
 
-<p align="center">
-  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow" />
-  <img src="https://img.shields.io/badge/frontend-concluído-brightgreen" />
-  <img src="https://img.shields.io/badge/backend-em%20planejamento-blue" />
-</p>
+O **TAKESTREET** é um laboratório de desenvolvimento focado em **arquitetura modular e escalabilidade**. Mais do que um e-commerce, o projeto é uma aplicação prática de conceitos de sistemas, unindo uma identidade visual agressiva inspirada no boombap e trap nacional a uma estrutura técnica sólida.
 
 ---
 
-## 📌 Sobre o projeto
+## 🎯 Objetivos do Projeto
 
-O **TAKESTREET** é uma plataforma web que traz uma experiência visual moderna e autêntica para descoberta de produtos streetwear.
-
-O projeto combina:
-
-* identidade urbana brasileira
-* design moderno
-* estrutura preparada para backend
+* **Curadoria de Elite**: Criar uma experiência visual de alto impacto para descoberta de produtos.
+* **Arquitetura Robusta**: Desenvolver um sistema com separação clara de responsabilidades (Frontend/Backend).
+* **Escalabilidade**: Preparar a base para integração com banco de dados e APIs REST.
+* **Conexão Cultural**: Traduzir a estética das ruas para o ambiente digital.
 
 ---
 
-## 🎯 Objetivo
+## 🛠️ Stack Técnica
 
-* Criar um e-commerce de streetwear
-* Oferecer uma experiência visual forte
-* Preparar o sistema para backend escalável
-* Conectar cultura urbana com tecnologia
+### **Frontend (UI/UX Driven)**
+
+* HTML5 e CSS3 (design minimalista e tema escuro)
+* JavaScript para interatividade e manipulação dinâmica
+
+### **Backend (Core System)**
+
+* Python com Flask (roteamento e renderização)
+* Estrutura preparada para evolução com banco de dados
 
 ---
 
-## 🧱 Estrutura do Projeto
+## 🧱 Estrutura de Pastas
 
 ```bash
 /takestreet
- ├── app.py
- ├── requirements.txt
- │
- ├── /templates
- │    └── index.html
- │
- ├── /static
- │    ├── /css
- │    │    └── style.css
- │    └── /js
- │         └── app.js
+ ├── app.py              # Servidor Flask e rotas
+ ├── requirements.txt    # Dependências
+ ├── /templates          # Views (HTML)
+ └── /static             # CSS, JS e imagens
 ```
 
 ---
 
-## 🖥️ Tecnologias
+## 🚀 Funcionalidades Atuais
 
-### Frontend
-
-* HTML5
-* CSS3
-* JavaScript
-
-### Backend (base inicial)
-
-* Python
-* Flask
+* ✅ Home com identidade visual forte
+* ✅ Shop Grid preparado para dados dinâmicos
+* ✅ Wishlist (interface integrada ao fluxo do usuário)
+* ✅ Telas de login e cadastro (base para autenticação)
 
 ---
 
-## 🎨 Identidade Visual
+## 👨‍💻 Processo de Desenvolvimento & IA
 
-* Tema escuro com destaque em amarelo
-* Tipografia forte e urbana
-* Layout minimalista e moderno
-* Influência da cultura trap brasileira
+Este projeto também explora **desenvolvimento orientado por IA**, incluindo:
 
----
-
-## 📄 Funcionalidades
-
-### 🏠 Home
-
-* Hero com branding TAKESTREET
-* Frases de impacto
-* Call-to-actions
-
-### 🛍️ Shop
-
-* Grid de produtos
-* Estrutura para dados dinâmicos
-
-### ❤️ Wishlist
-
-* Interface de favoritos (UI pronta)
-
-### 🔍 Busca
-
-* Campo de pesquisa
-* Estrutura para integração
-
-### 🔐 Autenticação
-
-* Interface de login/cadastro
-* Pronta para backend
+* Arquitetura e organização de código guiadas por planejamento técnico
+* Uso de prompts para otimização de lógica e resolução de problemas
+* Evolução incremental com suporte de modelos de linguagem
 
 ---
 
-## ⚙️ Backend atual
-
-O projeto utiliza **Flask** para servir o frontend:
-
-* Renderização de `index.html`
-* Estrutura básica de servidor
-
-> ⚠️ Ainda não possui:
->
-> * Banco de dados
-> * API REST
-> * Autenticação real
-
----
-
-## 🚀 Como rodar
+## 🔧 Como Executar
 
 ```bash
 pip install -r requirements.txt
 python app.py
 ```
 
-Acesse:
-
-```bash
+Acesse em:
 http://localhost:5000
-```
 
 ---
 
-## 🔌 Próximos passos
+## 🔮 Próximos Passos
 
-* API de produtos
-* Integração com PostgreSQL
-* Sistema de login com JWT
-* Wishlist persistente
-* Deploy (Netlify + Render)
-
----
-
-## 🧠 Conceito
-
-TAKESTREET não é apenas um site.
-
-É uma representação digital da cultura urbana brasileira:
-
-* estilo
-* atitude
-* identidade
+* [ ] API REST para produtos
+* [ ] Integração com banco de dados (PostgreSQL)
+* [ ] Sistema de autenticação (JWT)
+* [ ] Deploy contínuo
 
 ---
 
-## 👨‍💻 Autor
+## 🤝 Autor
 
-**Arthur Felipe**
-
----
-
-## 🤖 IAs utilizadas
-
-* ChatGPT (OpenAI)
-* Claude (Anthropic)
-
-Utilizadas para:
-
-* Estruturação do projeto
-* Correção de bugs
-* Planejamento técnico
-* Documentação
-
----
-
-## ⭐ Contribuição
-
-Sinta-se livre para contribuir com melhorias, ideias ou sugestões.
-
----
-
-## 📌 Licença
-
-Este projeto está em desenvolvimento e ainda não possui licença definida.
+**Arthur Felipe (Take)**
+Estudante de Sistemas de Informação na UNEB
+Focado em desenvolvimento Web, sistemas e liderança técnica com IA
