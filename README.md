@@ -52,16 +52,20 @@ O projeto atua como um experimento em **desenvolvimento orientado por Inteligên
 
 ---
 
-## 🚀 Roadmap de Evolução
-- [ ] **Data Persistence**: Implementação e integração com base de dados PostgreSQL.
-- [ ] **Security Layer**: Sistema de autenticação robusto utilizando JWT (JSON Web Tokens).
-- [ ] **API Economy**: Transição para uma API REST totalmente desacoplada.
-- [ ] **DevOps**: Configuração de pipeline CI/CD e automação de deploy.
+🚀 Roadmap de Evolução
 
----
+    [ ] Data Persistence: Implementação e integração com base de dados PostgreSQL.
 
-## 👨‍💻 Autor & Direção Técnica
-**Arthur Felipe (Take)**  
-*Estudante de Sistemas de Informação — **UNEB** (3º semestre)*  
+    [ ] Security Layer: Sistema de autenticação robusto utilizando JWT (JSON Web Tokens).
+
+    [ ] API Economy: Transição para uma API REST totalmente desacoplada.
+
+    [ ] DevOps: Configuração de pipeline CI/CD e automação de deploy.
+
+👨‍💻 Autor & Direção Técnica
+
+Arthur Felipe (Take)
+
+Estudante de Sistemas de Informação — UNEB (3º semestre)
 
 Focado em desenvolvimento Web, arquitetura de sistemas e na aplicação da tecnologia como uma extensão da cultura urbana e da experiência do usuário.
